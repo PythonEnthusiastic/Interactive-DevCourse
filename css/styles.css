@@ -64,4 +64,19 @@ html, body {
   border-bottom: 1px #D5D7DB solid;
 }
 
+@media only screen and (min-width: 992px) {
+  .footer {
+    height: 10%;
+  }
+  .footer .row .col-12 {
+    border-bottom: none;
+  }
+  .footer .row {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
