@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html, body {
+    height: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.jumbotron-fluid {
+    height: 90%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/cover.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.jumbotron-fluid * {
+    color: white;
+}
+
+.jumbotron-fluid span {
+    color: rgb(154, 36, 245);
+}
+
+.jumbotron-fluid .btn {
+    background-color: rgb(154, 36, 245);
+    border-radius: 30px;
+    padding: 8px 20px; // 40 for bigger
+    transition: .5s;
+}
+
+.jumbotron-fluid .btn:hover {
+    background-color: rgb(138, 21, 227);
+}
+
+.jumbotron-fluid i, .jumbotron-fluid .row p {
+    font-weight: 100;
+    display: inline-block;
+}
+
+.jumbotron-fluid .row {
+    width: 100%;
+}
+
+.jumbotron-fluid .row .col-4 {
+    border-right: .5px #f1f3f6 solid;
+}
+
+.jumbotron-fluid .row .col-4:last-child {
+    border-right: none;
+}
+
+.footer {
+    background-color: #f1f3f6;
+}
+
+.footer .row .col-12 {
+    padding: 10px;
+    border-bottom: 1px #D5D7DB solid;
+}
